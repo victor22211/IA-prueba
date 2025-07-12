@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.card {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.or {
+  margin: 1.5rem 0;
+  color: #888;
+  display: flex;
+  align-items: center;
+}
+
+.or span {
+  padding: 0 1rem;
+}
+
+.or::before,
+.or::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: #444;
+}
+
+.googleButton {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.googleButton:hover {
+  background-color: #eee;
+}
+
+.link {
+  margin-top: 1.5rem;
+}
+
+.link a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
